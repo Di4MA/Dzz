@@ -1,0 +1,7 @@
+f = open("first.txt", 'w')
+f.write("Я гений и стараюсь учить питон")
+f.close()
+f = open('first.txt', 'r')
+x = f.read(20)
+print(x)
+f.close()

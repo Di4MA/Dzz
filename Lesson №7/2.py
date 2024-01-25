@@ -1,0 +1,1 @@
+open('second.txt','w').write('first.txt','r').read()
